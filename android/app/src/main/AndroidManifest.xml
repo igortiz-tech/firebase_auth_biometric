@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.biometric_authentication">
+    package="io.igortiz.auth">
+   <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
    <application
-        android:label="biometric_authentication"
+        android:label="auth"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
